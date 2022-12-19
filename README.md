@@ -76,3 +76,7 @@ node server.js
 
 ## Contributors
 by Danny
+
+## Our Services and Community
+- [Official Website](https://gen.foundation/)
+- [Generation Explorer](https://dev-explorer.gen.foundation/)
