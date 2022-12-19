@@ -6,14 +6,18 @@ cawling server code
 
 ## Getting Started
 ### Database
-Create a database by executing the query statement below before running the crawl server. The work is done in **MySQL Workbench**.
+First, create a database by executing the query statement below before running the crawling server.
+</br>
+The work is done in **MySQL Workbench**.
 ```sql
 CREATE DATABASE explorer_db;
+
+USE explorer_db;
 
 CREATE TABLE block_data(                                            
   blocknumber INT NOT NULL,
   time_stamp VARCHAR(256) NOT NULL, 
-  miner VARCHAR(256) NOT NULL, 
+  blockhash VARCHAR(256) NOT NULL, 
   transaction_length VARCHAR(256) NOT NULL, 
   primary key (blocknumber),
   constraint uq_multicolumn unique (blocknumber, time_stamp)
@@ -43,7 +47,7 @@ CREATE TABLE contract_data(
 ```bash
 git clone https://github.com/Generation-Foundation/Explorer-Crawling-test.git
 ```
-- Modify ``.env`` to update MySQL database settings.
+- Create ``.env`` to update MySQL database settings.
 ```env
 DB_HOST="host"
 DB_USER="user"
