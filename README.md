@@ -39,6 +39,10 @@ CREATE TABLE contract_data(
 ```
 
 ### Installing
+- Git clone this repo
+```bash
+git clone https://github.com/Generation-Foundation/Explorer-Crawling-test.git
+```
 - Modify ``.env`` to update MySQL database settings.
 ```env
 DB_HOST="host"
@@ -46,7 +50,7 @@ DB_USER="user"
 DB_PASSWORD="password"
 DB_DATABASE="explorer_db"
 ```
-- Modify app/explorerconfig.json to your blockchain RPC URL
+- Modify 'baseURL' in ``etherApi.js`` to your blockchain RPC URL
 ```javascript
 const axios = require("axios");
 
@@ -57,4 +61,9 @@ const etherApi = axios.create({
 })
 
 module.exports = { etherApi } 
+```
+- Run it local with the following command
+```bash
+npm install --save
+node server.js
 ```
