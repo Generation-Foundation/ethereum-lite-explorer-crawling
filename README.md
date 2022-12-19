@@ -5,7 +5,7 @@
 cawling server code
 
 ## Getting Started
-### Database
+### Setting up Database
 First, create a database by executing the query statement below before running the crawling server.
 </br>
 The work is done in **MySQL Workbench**.
