@@ -1,4 +1,4 @@
-# GEN-Lite-Explorer-Crawling
+# ethereum-lite-explorer-crawling
 
 ## Description
 This project is an open-source block explorer on EVM chain. If you follow this repository, you can run explorer in localhost. This repository provides crawling code and database set up. This logic accesses the chain RPC URL every 2.5 seconds, receives data and stores it in the database.
@@ -72,7 +72,7 @@ npm install --save
 node server.js
 ```
 - Go to the following link to build your backend server
-  - <https://github.com/Generation-Foundation/Explorer-Backend-test>
+  - <https://github.com/Generation-Foundation/ethereum-lite-explorer-back>
 
 ## Contributors
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
@@ -83,6 +83,8 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/Jaewoneeee"><img src="https://avatars.githubusercontent.com/u/93761302?v=4" width="100px;" alt=""/><br /><sub><b>Danny</b></sub></a><br /><a>💻</a> <a>🤔</a> <a>🔣</a> <a>📖</a> <a>🚧</a></td> 
   </tr>
 </table>
+
+## Developed
 
 ## Our Services and Community
 - [Official Website](https://gen.foundation/)
