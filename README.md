@@ -45,7 +45,7 @@ CREATE TABLE contract_data(
 ### Installing
 - Git clone this repo
 ```bash
-git clone https://github.com/Generation-Foundation/Explorer-Crawling-test.git
+git clone https://github.com/Generation-Foundation/ethereum-lite-explorer-crawling.git
 ```
 - Create ``.env`` to update MySQL database settings.
 ```env
