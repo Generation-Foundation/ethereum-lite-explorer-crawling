@@ -85,6 +85,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 </table>
 
 ## Developed
+Developing by [Generation Foundation](https://github.com/Generation-Foundation)
 
 ## Our Services and Community
 - [Official Website](https://gen.foundation/)
