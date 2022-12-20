@@ -1,14 +1,14 @@
-# Explorer-Crawling-test
-
+# GEN-Lite-Explorer-Crawling
 
 ## Description
-cawling server code
+This project is an open-source block explorer on EVM chain. If you follow this repository, you can run explorer in localhost. This repository provides crawling code and database set up. This logic accesses the chain RPC URL every 2.5 seconds, receives data and stores it in the database.
 
 ## Getting Started
 ### Setting up Database
-First, create a database by executing the query statement below before running the crawling server.
-</br>
-The work is done in **MySQL Workbench**.
+**This is done in MySQL Workbench. Proceed with the workbench settings first.**
+<br>
+Create a database by executing the query statement below before running the crawling server.
+
 ```sql
 CREATE DATABASE explorer_db;
 
