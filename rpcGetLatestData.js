@@ -68,7 +68,7 @@ const db_insertTxsData = async(blockTxArr, time_stamp) => {
                     const contractDataInsert = "INSERT INTO contract_data (blockNumber, contractAddress) VALUES (?, ?);"
                     db.query(contractDataInsert, [blockNumber, toAddress], (err, result) => {
                         if(err) {
-                            console.log("error : ", err)
+                            //console.log("error : ", err)
                         } else {
                             //console.log("result : ", result)
                         }    
